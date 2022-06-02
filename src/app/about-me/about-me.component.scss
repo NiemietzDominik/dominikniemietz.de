@@ -19,7 +19,9 @@
 .about-me-upper-part {
     max-width: 80vw;
     display: flex;
+    border-bottom: 1px solid white;
     justify-content: space-around;
+    padding-bottom: 60px;
 }
 
 .profil-img-about-me-container {
@@ -34,6 +36,7 @@
 }
 
 .about-me-text-container {
+    color: white;
     max-width: 400px;
     text-align: center;
     margin: 20px;
@@ -43,4 +46,50 @@
     height: 500px;
     object-fit: cover;
     object-position: -70px;
+}
+
+.my-journey-container{
+    display: flex;
+    max-width: 80vw;
+    height: 300px;
+    margin: 10px;
+}
+
+.my-journey{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.my-journey-img{
+    height: 30px;
+}
+
+.my-journey-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    border: 1px solid black;
+    background: green;
+}
+
+.my-journey-began{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    white-space: nowrap;
+}
+
+.my-journey-text{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    max-width: fit-content;
 }
