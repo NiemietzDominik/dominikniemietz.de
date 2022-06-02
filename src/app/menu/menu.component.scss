@@ -1,0 +1,66 @@
+header {
+    position: absolute;
+    opacity: 0.8;
+    background-color: #08180c;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 80px;
+    z-index: 1;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #267139;
+    box-shadow: 1px 1px 5px #267139;
+
+    a {
+        color: white;
+        text-decoration: none;
+        margin-left: 32px;
+        font-weight: 500;
+        cursor: pointer;
+
+
+        &:hover {
+            color: rgb(225, 225, 225, 0.8);
+        }
+    }
+
+    img {
+        height: 60px;
+        cursor: pointer;
+    }
+}
+
+.darkLinks{
+    a{
+        color: black;
+
+        &:hover{
+            color: rgba(0, 0, 0, 0.8);
+        }
+    }
+}
+
+.headerDark{
+    background-color: white;
+    box-shadow: 0px 3px 1px #888888;
+}
+
+.fadeInTop {
+    animation: fadeInAnimationTop 1.5s ease-in-out;
+}
+
+@keyframes fadeInAnimationTop {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
