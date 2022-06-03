@@ -48,15 +48,15 @@
     object-position: -70px;
 }
 
-.my-journey-container{
+.my-journey-container {
     display: flex;
     max-width: 80vw;
     height: 300px;
-    margin: 10px;
+    margin-top: 60px;
 }
 
-.my-journey{
-    height: 300px;
+.my-journey {
+    height: 270px;
     width: 200px;
     display: flex;
     justify-content: space-between;
@@ -65,11 +65,11 @@
     margin: 10px;
 }
 
-.my-journey-img{
+.my-journey-img {
     height: 30px;
 }
 
-.my-journey-img-container{
+.my-journey-img-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,16 +80,26 @@
     background: green;
 }
 
-.my-journey-began{
+.my-journey-began {
     text-align: center;
-    font-size: 14px;
+    font-size: 17px;
     color: white;
     white-space: nowrap;
+    margin-bottom: 15px;
 }
 
-.my-journey-text{
+.my-journey-text {
     color: white;
     font-size: 12px;
     text-align: center;
     max-width: fit-content;
+}
+
+.my-journey-began-and-text-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 180px;
+    width: 150px;
+
 }
